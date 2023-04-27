@@ -2,6 +2,40 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# This assessment was given to me by Lendsqr company
+I was given this assessment to build the 4 pages Login, Dashboard, User page, and User details page.
+Using React.js with Typescript and SCSS for styling
+
+### `Available Script`
+To run this project:
+clone it at https://github.com/albertase/Albert-Ukaegbu-Nnaji.git
+cd Albert-Ukaegbu-Nnaji 
+run npm install to install all the dependencies.
+run npm start to start the project server.
+
+
+### `State Management`
+Context API provided by lendsqr company was used to manage the state.
+
+### `Log in`
+After starting the app the login page comes up first 
+Users can always use any random email and password to log in but it must be in the correct format of email, 
+and password Must contain(0-9, A-z @, $, !, %, *, ?, or &) & 8 character long
+or use one of the users' emails from the mock API to see the user's profile.
+e.g. Maverick.Hyatt83@gmail.c or Katarina_Botsford@hotmail.com with a random password.
+
+### `Dashboard`
+After Logging in successfully, it will redirect you to the Dashboard, where you can play with the sidebar, though is only the user that has data to display.
+Users can also filter in that same Dashboard.
+
+When click on the Pagination, you'll see different users based on the API provided
+You can as well click on the three dots on each user to view the user's profile, Blacklist, or Activate users.
+
+Users' status is displayed on clicking the view profile button and users can as well change the status.
+
+Other detail you need to know about React below 👎
+
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -44,3 +78,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+
