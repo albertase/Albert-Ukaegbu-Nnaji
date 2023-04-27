@@ -148,6 +148,9 @@ function LogInPage(): JSX.Element {
                 Log in wth one of the users from the mock API<br /> to see the profile.
               </p>
               <p>
+                This face is not included in the figma design<br /> it's added to be user friendly
+              </p>
+              <p>
                 e.g Email: albertukaegbu@gmail.com, <br /> Password: use any
                 random password
               </p>

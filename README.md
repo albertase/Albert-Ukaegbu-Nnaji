@@ -13,6 +13,10 @@ cd Albert-Ukaegbu-Nnaji
 run npm install to install all the dependencies.
 run npm start to start the project server.
 
+### `Testing the app`
+I wrote test for this assessment
+run npm run test to test it.
+
 
 ### `State Management`
 Context API provided by lendsqr company was used to manage the state.
