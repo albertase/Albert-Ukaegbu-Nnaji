@@ -1,4 +1,4 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useCallback, useMemo } from "react";
 
 export interface IAuth {
   email: string;
@@ -14,7 +14,6 @@ export type AuthContextType = {
 
 type Props = {
   children?: React.ReactNode;
-  state?: IAuth | null;
 };
 
 export const AuthContext = createContext<AuthContextType>({
@@ -27,21 +26,21 @@ export const AuthContext = createContext<AuthContextType>({
 const UserProvider = ({ children }: Props) => {
   const [user, setUser] = useState<IAuth | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
-  const [isLoggedIn, setIsLoggedIn] = useState<boolean>(false);
 
-  const getUser = (): IAuth | void => {
+  const getUser = useCallback((): IAuth | void => {
     setLoading(true);
-    
+    // ... Do something to get the user data
     setLoading(false);
-  };
+  }, []);
 
+  const isLoggedIn = useMemo(() => !!user, [user]);
 
-  const authContextValue: AuthContextType = {
+  const authContextValue = useMemo(() => ({
     user,
     isLoggedIn,
     loading,
     getUser,
-  };
+  }), [user, isLoggedIn, loading, getUser]);
 
   return (
     <AuthContext.Provider value={authContextValue}>

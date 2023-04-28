@@ -198,7 +198,7 @@ function LogInPage(): JSX.Element {
                   onBlur={passwordBlurHandler}
                 />
                 <button onClick={() => setIsShowPassword(!isShowPassword)} type="button">
-                  SHOW
+                  {!isShowPassword ? 'SHOW' : 'HIDE'}
                 </button>
               </div>
               <span
