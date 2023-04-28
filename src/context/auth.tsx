@@ -35,6 +35,7 @@ const UserProvider = ({ children }: Props) => {
     setLoading(false);
   };
 
+
   const authContextValue: AuthContextType = {
     user,
     isLoggedIn,

@@ -130,11 +130,11 @@ const OtherUserInfo: React.FC<OtherUserInfoProps> = ({
             </div>
             <div>
               <h6>Email Address</h6>
-              <span>Not Specifield</span>
+              <span>Not Specified</span>
             </div>
             <div>
               <h6>Relationship</h6>
-              <span>Not Specifield</span>
+              <span>Not Specified</span>
             </div>
           </div>
         </div>

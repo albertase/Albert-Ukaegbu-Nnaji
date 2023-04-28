@@ -5,7 +5,7 @@ const EmptyContentPages: React.FC = () => {
 
   return (
     <div className="no-content">
-      <h3>There is no content for {location.pathname.substring(1)}</h3>
+      <h3 style={{color: "#e53e3e"}}>There is no content Yet for {location.pathname.substring(1)}</h3>
     </div>
   );
 };

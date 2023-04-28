@@ -42,7 +42,7 @@ const SideNav: FC<SideNavProps> = ({ closeSideNav }) => {
     }
   };
   return (
-    <div className="sideNav">
+    <div className="sideNavBar">
       <ul>
         <p className="cancelSideNav" onClick={closeSideNav}>
           x

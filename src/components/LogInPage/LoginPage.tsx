@@ -170,7 +170,7 @@ function LogInPage(): JSX.Element {
                 <h1>Welcome!</h1>
                 <p>Enter details to login.</p>
                 {hasError && (
-                  <p className="error">Something went wrong try again</p>
+                  <p className="error">Something went wrong check your network and try again</p>
                 )}
               </div>
               <div className={`inputGroup ${emailClasses}`}>
