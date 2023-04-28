@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import useInput from "../../hooks/use-input";
 
 
-import "./Landing.scss";
+import "./Login.scss";
 import welcomeImg from "../../assets/images/pablo-sign-in.png";
 import { LogoIcon } from "../svgIcons";
 import Button from "../Button";
