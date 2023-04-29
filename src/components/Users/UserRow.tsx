@@ -10,7 +10,7 @@ import {
 } from "../svgIcons";
 import { UserContext,  IUser, UserContextType } from "../../context/context";
 
-interface RowProps {
+export interface RowProps {
   openFilter: () => void;
   idx: number;
   user: IUser;

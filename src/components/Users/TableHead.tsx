@@ -1,7 +1,7 @@
 import React from "react";
 import { FilterIcon } from "../svgIcons";
 
-interface TableProps {
+export interface TableProps {
   openFilter: () => void;
 }
 
