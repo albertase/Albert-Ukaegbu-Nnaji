@@ -40,6 +40,38 @@ Users' status is displayed on clicking the view profile button and users can as 
 Other detail you need to know about React below 👎
 
 
+
+## `Header Component`
+This component is a React functional component that creates a header with search, menu bar, and profile functionalities. It also includes some SVG icons for better user experience.
+
+Dependencies
+This component requires the following dependencies:
+
+react
+react-dom
+react-router-dom
+prop-types
+svgIcons
+
+
+Usage
+This component can be imported in your React application as follows:
+import Header from './components/Header/Header';
+
+Then it can be used in your React component like this:
+<Header />
+
+Props
+This component does not accept any props.
+
+Features
+Search functionality with the ability to filter through a list of users.
+Profile image with a dropdown menu for user actions.
+Menu bar for mobile view.
+Notification icon for showing notifications.
+Logo icon for navigating to home.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
